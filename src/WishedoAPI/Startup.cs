@@ -8,6 +8,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
+using WishedoAPI.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace WishedoAPI
 {
     public class Startup
@@ -28,7 +31,8 @@ namespace WishedoAPI
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddMvc();
+            string con = 
+			services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
