@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFFFFAFB-750F-4193-AA6B-48B84A1C0689}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42CFD10A-A659-4D28-A6FA-0E6ECB6E9454}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WishedoAPI", "src\WishedoAPI\WishedoAPI.xproj", "{013FCA54-13BB-4ADC-9173-8FEAFAE102FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{013FCA54-13BB-4ADC-9173-8FEAFAE102FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013FCA54-13BB-4ADC-9173-8FEAFAE102FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013FCA54-13BB-4ADC-9173-8FEAFAE102FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013FCA54-13BB-4ADC-9173-8FEAFAE102FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{013FCA54-13BB-4ADC-9173-8FEAFAE102FB} = {BFFFFAFB-750F-4193-AA6B-48B84A1C0689}
+	EndGlobalSection
+EndGlobal
