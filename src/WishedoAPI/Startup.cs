@@ -31,8 +31,9 @@ namespace WishedoAPI
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            string con = 
-			services.AddMvc();
+            string con = "Server=(localdb)\\mssqllocaldb;Database=usersdbstore;Trusted_Connection=True;MultipleActiveResultSets=true";
+            services.AddDbContext<UsersContext>(options => options.UseSqlServer(con));
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

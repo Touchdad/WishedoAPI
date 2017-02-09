@@ -1,14 +1,16 @@
-﻿using System;
+﻿using System; //ZHOPA
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Microsoft.EntityFrameworkCore;
+
 namespace WishedoAPI.Models
 {
-    public class UserContext : DbContext
+    public class UsersContext : DbContext
     {
 		public DbSet<User> Users {get;set;}
-		public UserContext (DbContextOptions<UsersContext> options)
+		public UsersContext (DbContextOptions<UsersContext> options)
 			:base (options)
 		{ }
     }
