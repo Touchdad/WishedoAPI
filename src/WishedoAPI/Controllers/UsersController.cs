@@ -86,7 +86,7 @@ namespace WishedoAPI.Controllers
 			}
 			db.Users.Remove(user);
 			db.SaveChanges();
-			return Ok(user); //ZHOPA!
+			return Ok(user); 
         }
     }
 }
